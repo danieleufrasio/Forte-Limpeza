@@ -1,0 +1,21 @@
+function findFormByContainerValue(containerValue) {
+    var forms = document.getElementsByTagName('form');
+    for(var i = 0; i < forms.length; i++) {
+        var form = forms[i];
+        var input = form.querySelector('input[name="currentContainer"]');
+        if(input && input.value === containerValue) {
+            return form;
+        }
+    }
+    return null;
+}
+
+var form = findFormByContainerValue('/content/experience-fragments/veja/br/pt_BR/site/footer/master/jcr:content/root/rbstartuppopup_copy/container_724037308/container/container');
+if (form) {
+    form.action = "/forms/popup";
+}
+
+form = findFormByContainerValue('/content/experience-fragments/veja/br/pt_BR/site/footer/master/jcr:content/root/container_744395666/container_1486337242/container_2008557155/container_1712000353');
+if (form) {
+    form.action = "/forms/footer";
+}

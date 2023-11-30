@@ -1,0 +1,8 @@
+.RBStartupPopup .outside_overlay{display:none;position:fixed;top:0;left:0;margin-top:0;margin-left:0;width:100vw;height:100vh;background-color:rgba(0,0,0,0.8);z-index:1000001;overflow-y:auto}
+.RBStartupPopup .inside_back{position:absolute;top:0;left:0;right:0;bottom:0}
+.RBStartupPopup .inside_content{position:relative;width:75%;background-color:white;padding:20px;border-radius:20px;margin:15% auto}
+.RBStartupPopup .close_startup_popup{font-size:2.5em;cursor:pointer;position:absolute;right:5px;top:0;color:#000;line-height:1em}
+.grey-popup .inside_content{background-color:#ebe9e5}
+.overflow-hidden{overflow:hidden}
+@media only screen and (min-width:768px){.RBStartupPopup .inside_content{margin:7% auto}
+}

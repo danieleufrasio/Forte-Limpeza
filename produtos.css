@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.background{
+    background-image: url(OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    transition: all cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    background-color: rgb(74, 55, 247);
+    padding: 14px 14%;
+
+}
+
+#textos{ display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+
+}
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+}
+
+.cabeçalho-link a{
+    color: black;
+    font-weight: 700;
+    transition: 0.3s;
+
+}
+
+.cabeçalho-link a:hover{
+    color: #fff;
+
+}
+.icon span{
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+.meio{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+}
+.meio h1{
+    font-size: 4rem;
+}
+.section{
+    padding-top: 7rem;
+}
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container-card-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+
+}
+
+
+.cards img{
+width: 450px;
+height: auto;
+transition: 0.35s ease;
+}
+
+.cards img:hover{
+transform: scale(0.9) translateY(5px);
+cursor: pointer;
+}
+.cta{
+    background: url(v1.png);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    color: #fdfcfc;
+   
+
+}
+.text-cta{
+    padding-left: 5rem;
+    
+
+
+}
+
+.conteiner-roupas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+.conteiner-roupas img:hover{
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.roupa{
+    background-color: #5fb608;
+    color: blue;
+}
+.roupa img{
+    width: 250px;
+    height: auto;
+
+}
+
+.marcas{
+    margin-top: 10rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+
+}
+
+.marcas img{
+    width: 300px;
+    min-height: auto;
+    background-color: rgb(117, 193, 255);
+
+}
+
+.contato{
+    display: flex;
+    gap: 5em;
+    justify-content: space-around;
+    background-color: rgb(41, 40, 40);
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+
+}
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+
+}
+
+.meio-contato h5{
+font-size: 15px;
+font-weight: 600;
+color: #555;
+
+
+}
+
+.meio-contato li a{
+    display:block;
+    color: #555;
+    font-weight: 600;
+    transition: 0.35s ease;
+    
+}
+
+.last-text{
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
